@@ -9,4 +9,5 @@
 
 
 echo "HOME PAGE 222";
+echo "HOME PAGE stage to main";
 get_footer();
