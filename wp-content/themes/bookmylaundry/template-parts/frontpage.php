@@ -8,5 +8,5 @@
 
 
 
-echo "HOME PAGE";
+echo "HOME PAGE 222";
 get_footer();
