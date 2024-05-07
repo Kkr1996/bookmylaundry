@@ -455,3 +455,38 @@ header + section{
         }
     }
 }
+.testimonial-slider
+{
+    .slider_content{
+        display: flex;
+        justify-content: space-between;
+        .right{
+            width: 60%;
+            /* the slides */
+            .slick-slide {
+                margin: 0 10px;
+            }
+            /* the parent */
+            .slick-list {
+                margin: 0 -10px;
+            }
+        }
+        .left{
+            width: 40%;
+            padding-right: 30px;
+            .icons{
+                img{
+                    transform: rotate(180deg);
+                    width: 80px;
+                }
+            }
+            .slickarrow{
+                .slick-arrow{
+                    font-size: 14px;
+                    color: #000;
+                    position: relative;
+                }
+            }
+        }
+    }
+}

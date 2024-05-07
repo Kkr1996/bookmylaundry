@@ -451,4 +451,33 @@ header + section {
 .custom_category .wrap_category .item .icons {
   max-width: 100px;
   margin: 15px auto 32px;
+}
+
+.testimonial-slider .slider_content {
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial-slider .slider_content .right {
+  width: 60%;
+  /* the slides */
+  /* the parent */
+}
+.testimonial-slider .slider_content .right .slick-slide {
+  margin: 0 10px;
+}
+.testimonial-slider .slider_content .right .slick-list {
+  margin: 0 -10px;
+}
+.testimonial-slider .slider_content .left {
+  width: 40%;
+  padding-right: 30px;
+}
+.testimonial-slider .slider_content .left .icons img {
+  transform: rotate(180deg);
+  width: 80px;
+}
+.testimonial-slider .slider_content .left .slickarrow .slick-arrow {
+  font-size: 14px;
+  color: #000;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */

@@ -155,7 +155,7 @@
             <div class="item">
                 <a href="#">
                     <div class="icons">
-                        <img src="<?php echo get_template_directory_uri();?>/assets/icons/wash.jpg" alt="icons" class="icons">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/icons/wash.png" alt="icons" class="icons">
                     </div>
                     <div class="heading">
                         <h4>Wash</h4>
@@ -235,6 +235,98 @@
     </div>
 </section>
 
+<section class="testimonial-slider">
+    <div class="site_container">
+         <div class="slider_content">
 
+         <div class="left">
+                    <div class="inner-wrap">
+                        <div class="icons">
+                             <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/bxs--quote-right.svg" alt="icons">
+                        </div>
+                        <h2>What our customers say</h2>
+<!-- 
+                        <div class="slickarrow">
+                            <button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="">Previous</button>
+                            <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="">Next</button>
+                        </div> -->
+
+                    </div>
+              </div>
+
+
+              <div class="right">
+                <div class="inner-item testimonial_slider">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://codingyaar.com/wp-content/uploads/headshot-1-scaled.jpg" class="d-block w-100" alt="..."> 
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <?php 
+                                for($i = 0 ; $i < 5; $i++){
+                                    echo '<span class="dashicons dashicons-star-filled"></span>';
+                                }
+                            ?>
+                            <p class="card-text">
+                                Great laundry, great service, amazing staff, clean facilities and good location, they are very professional. highly recommended 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://codingyaar.com/wp-content/uploads/headshot-2-scaled.jpg" class="d-block w-100" alt="..."> 
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <?php 
+                                for($i = 0 ; $i < 5; $i++){
+                                    echo '<span class="dashicons dashicons-star-filled"></span>';
+                                }
+                            ?>
+                            <p class="card-text">
+                                I recently used BookMyLaundry for the first time, and I’m thoroughly impressed with their service. The booking process was quick and easy, and the pickup and delivery were punctual. My clothes came back fresh, clean, and neatly folded. The entire experience was hassle-free, and I appreciate the convenience they offer. I highly recommend BookMyLaundry for their efficiency, reliability, and quality service.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://codingyaar.com/wp-content/uploads/headshot-1-scaled.jpg" class="d-block w-100" alt="..."> 
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <?php 
+                                for($i = 0 ; $i < 5; $i++){
+                                    echo '<span class="dashicons dashicons-star-filled"></span>';
+                                }
+                            ?>
+                            <p class="card-text">
+                                Great laundry, great service, amazing staff, clean facilities and good location, they are very professional. highly recommended 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="https://codingyaar.com/wp-content/uploads/headshot-2-scaled.jpg" class="d-block w-100" alt="..."> 
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title 1</h5>
+                            <?php 
+                                for($i = 0 ; $i < 5; $i++){
+                                    echo '<span class="dashicons dashicons-star-filled"></span>';
+                                }
+                            ?>
+                            <p class="card-text">
+                                I recently used BookMyLaundry for the first time, and I’m thoroughly impressed with their service. The booking process was quick and easy, and the pickup and delivery were punctual. My clothes came back fresh, clean, and neatly folded. The entire experience was hassle-free, and I appreciate the convenience they offer. I highly recommend BookMyLaundry for their efficiency, reliability, and quality service.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+
+         </div>
+    </div>
+</section>
 <?php
 get_footer();

@@ -15,6 +15,15 @@ jQuery(document).ready(function($){
         arrows: true,
         loop: true
     });
+    jQuery('.testimonial_slider').slick({
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        autoplay: false,
+        dots: true,
+        arrows: true,
+        loop: true,
+    });
+
     jQuery(document).on('click', ".clickable", function(){
         jQuery(".timeslot-city-switcher").toggle();
     });
