@@ -82,6 +82,17 @@
 </div>
 </div>
 
+
+
+<div class="floating-buttons">
+  <!-- WhatsApp button -->
+  <a href="https://wa.me/8284910963" class="whatsapp" target="_blank">WhatsApp</a>
+  <!-- Phone call button -->
+  <a href="tel:8284910963" class="phone">Call</a>
+
+  <a href="#" class="scroll-top">Top</a>
+</div>
+
 <?php wp_footer(); ?>
 
 </body>

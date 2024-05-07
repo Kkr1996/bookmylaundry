@@ -20,10 +20,13 @@ jQuery(document).ready(function($){
         slidesToScroll: 2,
         autoplay: false,
         dots: true,
-        arrows: true,
         loop: true,
+        arrows: true,
     });
-
+    $('.scroll-top').click(function(){
+        $('html, body').animate({scrollTop : 0},800);
+        return false;
+    });
     jQuery(document).on('click', ".clickable", function(){
         jQuery(".timeslot-city-switcher").toggle();
     });

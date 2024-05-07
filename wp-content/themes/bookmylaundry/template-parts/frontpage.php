@@ -7,7 +7,6 @@
  
 ?>
 
-
 <section class="home-banner-section">
     <div class="fluid_container">
         <div class="banner-slider">
@@ -245,12 +244,6 @@
                              <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/bxs--quote-right.svg" alt="icons">
                         </div>
                         <h2>What our customers say</h2>
-<!-- 
-                        <div class="slickarrow">
-                            <button type="button" data-role="none" class="slick-prev slick-arrow" aria-label="Previous" role="button" style="">Previous</button>
-                            <button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="">Next</button>
-                        </div> -->
-
                     </div>
               </div>
 
