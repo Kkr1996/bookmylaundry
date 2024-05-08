@@ -327,6 +327,9 @@ header + section {
   align-items: center;
   height: 40px;
 }
+.top_header .wrap_top_header .slick-arrow {
+  width: 32px;
+}
 .top_header .wrap_top_header .slick-arrow::before {
   color: #000;
 }
@@ -468,6 +471,9 @@ header + section {
 .testimonial-slider .slider_content .right .slick-list {
   margin: 0 -10px;
 }
+.testimonial-slider .slider_content .right .slick-arrow {
+  display: none !important;
+}
 .testimonial-slider .slider_content .left {
   width: 40%;
   padding-right: 30px;
@@ -476,13 +482,120 @@ header + section {
   transform: rotate(180deg);
   width: 80px;
 }
-.testimonial-slider .slider_content .left .slickarrow .slick-arrow {
-  font-size: 14px;
+.testimonial-slider .slider_content .left .custom-arrow {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+.testimonial-slider .slider_content .left .custom-arrow img {
+  width: 32px;
+  cursor: pointer;
+}
+.testimonial-slider .slider_content .left .custom-arrow .left-arrow {
+  cursor: pointer;
   color: #000;
   position: relative;
 }
 
-/* Style for floating buttons */
+.ourareas .locations .w-html ul {
+  color: #fff;
+  display: grid;
+  list-style: none;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.ourareas .locations .w-html ul li {
+  margin-bottom: 45px;
+}
+.ourareas .locations .w-html ul li img {
+  width: 50px;
+}
+.ourareas .locations .w-html ul li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+}
+.ourareas .inner_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.ourareas .inner_content .right {
+  max-width: 500px;
+  font-size: 16px;
+}
+
+.custom-footer-wrapper {
+  background-color: #f7f7f7;
+  padding: 40px;
+}
+
+.custom-footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.custom-footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.custom-footer-col {
+  flex: 1;
+  max-width: 25%;
+}
+
+.custom-section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.custom-footer-item {
+  margin-bottom: 10px;
+}
+.custom-footer-item img {
+  width: 50px;
+}
+
+.custom-footer-link {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s ease;
+}
+.custom-footer-link:hover {
+  color: #007bff;
+}
+
+.our-blog .bloglist {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.our-blog .bloglist .item {
+  width: calc(33.33% - 30px);
+}
+
+.happy {
+  background: #5d3f6a;
+  padding: 45px;
+  text-align: center;
+  color: #fff;
+}
+.happy .title {
+  color: #fff;
+}
+
 .floating-buttons {
   position: fixed;
   bottom: 20px;

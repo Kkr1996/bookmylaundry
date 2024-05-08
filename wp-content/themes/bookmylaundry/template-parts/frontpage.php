@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Template Name:Home
  */
@@ -245,6 +244,10 @@
                         </div>
                         <h2>What our customers say</h2>
                     </div>
+                    <div class="custom-arrow">
+                        <div class="left-arrow"><img class="slick-prev" src="<?php echo get_template_directory_uri();?>/assets/icons/arrow-sm-left.svg" alt="Previous"></div>
+                        <div class="right-arrow"><img class="slick-prev" src="<?php echo get_template_directory_uri();?>/assets/icons/arrow-right.svg" alt="Previous"></div>
+                    </div>
               </div>
 
 
@@ -317,9 +320,138 @@
                 </div>
               </div>
 
-
          </div>
     </div>
 </section>
+
+<section class="happy customer">
+    <div class="py-32 py-md-48 text-center dark-blue bg-primary-yellow">
+        <div class="container">
+            <div class="row mb-16 justify-content-center">
+                <div class="col-auto">
+                    <p class="title fw-bold font-24-32 text-center fw-normal" id="landingUpsellSmallTitle">Book now. Smile away. Everyday.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <span id="landingUpsellSmallCTA">Schedule your pickup</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ourareas">
+    <div class="site_container">
+        <div class="inner_content">
+            <div class="left">
+                 <h3>Our Stores</h3>
+                 <h2>Which is best for you?</h2>
+            </div>
+            <div class="right">
+                <p>At Book My Laundry, we are not just another laundry and dry cleaning service; we are pioneers in reinventing the future of garment care.</p>
+            </div>
+        </div>   
+        <div class="locations">
+            <div class="w-html">
+                <ul style="margin: 0; color:#fff;">
+                    <li> 
+                       <a href="#">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/google-maps.png" alt="icons"> <span> Noida Sector 29 </span>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/google-maps.png" alt="icons"> <span> Noida Sector 76 </span>
+                       </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/google-maps.png" alt="icons"> <span> Alpha 2 Gr. Noida</span>
+                       </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/google-maps.png" alt="icons"> <span> Noida Sector 104</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/google-maps.png" alt="icons"> <span> Dwarka</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/google-maps.png" alt="icons"> <span> Vyapar Kendra Gurgaon</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/google-maps.png" alt="icons"> <span> Ludhiana Trade Tower Ludhiana </span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/google-maps.png" alt="icons"> <span> Chander nagar Ghaziabad </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>               
+    </div>
+</section>
+
+<section class="our-blog">
+    <div class="site_container">
+       <div class="head">
+            <h3>Latest Blogs</h3>
+            <p>Stay updated with the best of garment and home cleaning</p>
+       </div> 
+       <div class="bloglist">
+            <div class="item">
+                <div class="content">
+                   <a href="#">
+                        <div class="wrap-image">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/image/blog-01.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <time datetime="August 21, 2023"><i class="houzez-icon icon-calendar-3 mr-1"></i> August 21, 2023</time>
+                            <h3>Mastering Laundry Care:  Tips and Tricks for a Fresher Wardrobe </h3>
+                        </div>
+                   </a>
+                </div>
+            </div>
+            <div class="item">
+               <a href="#">
+                <div class="content">
+                        <div class="wrap-image">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/image/blog-01.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <time datetime="August 21, 2023"><i class="houzez-icon icon-calendar-3 mr-1"></i> August 21, 2023</time>
+                            <h3>Mastering Laundry Care:  Tips and Tricks for a Fresher Wardrobe </h3>
+                        </div>
+                    </div>
+               </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <div class="content">
+                        <div class="wrap-image">
+                            <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/image/blog-01.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <time datetime="August 21, 2023"><i class="houzez-icon icon-calendar-3 mr-1"></i> August 21, 2023</time>
+                            <h3>Mastering Laundry Care:  Tips and Tricks for a Fresher Wardrobe </h3>
+                        </div>
+                    </div>
+                </a>
+            </div>
+       </div>
+    </div>
+</section>
+
 <?php
 get_footer();

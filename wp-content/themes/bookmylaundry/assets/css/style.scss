@@ -325,6 +325,7 @@ header + section{
         align-items: center;
         height: 40px;
         .slick-arrow{
+            width: 32px;
             &::before{
                 color: #000;
             }
@@ -470,6 +471,9 @@ header + section{
             .slick-list {
                 margin: 0 -10px;
             }
+            .slick-arrow{
+                display: none!important;
+            }
         }
         .left{
             width: 40%;
@@ -480,9 +484,16 @@ header + section{
                     width: 80px;
                 }
             }
-            .slickarrow{
-                .slick-arrow{
-                    font-size: 14px;
+            .custom-arrow{
+                display: flex;
+                gap: 15px;
+                cursor: pointer;
+                img{
+                    width: 32px;
+                    cursor: pointer;
+                }
+                .left-arrow{
+                    cursor: pointer;
                     color: #000;
                     position: relative;
                 }
@@ -491,7 +502,107 @@ header + section{
     }
 }
 
-/* Style for floating buttons */
+.ourareas{
+
+    .locations{
+        .w-html{
+            ul{
+                color: #fff;
+                display: grid;
+                list-style: none;
+                grid-auto-flow: column;
+                grid-template-rows: 1fr 1fr;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                li{
+                    margin-bottom: 45px;
+                    img{
+                        width: 50px;
+                    }
+                    a{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }
+    .inner_content{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+        .right{
+            max-width: 500px;
+            font-size: 16px;
+        }
+    }
+}
+.custom-footer-wrapper {
+background-color: #f7f7f7;
+padding: 40px;
+}
+.custom-footer-container {
+max-width: 1200px;
+margin: 0 auto;
+}
+.custom-footer-row {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.custom-footer-col {
+flex: 1;
+max-width: 25%;
+}
+
+.custom-section-title {
+font-size: 18px;
+font-weight: bold;
+color: #333;
+margin-bottom: 20px;
+}
+  
+.custom-footer-item {
+    margin-bottom: 10px;
+    img{
+        width: 50px;
+    }
+}
+  
+.custom-footer-link {
+color: #555;
+text-decoration: none;
+display: block;
+transition: color 0.3s ease;
+&:hover {
+    color: #007bff;
+}
+}
+.our-blog{
+    .bloglist{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap:30px;
+        .item{
+            width: calc(33.33% - 30px)
+        }
+    }
+}
+.happy{
+    background: #5d3f6a;
+    padding: 45px;
+    text-align: center;
+    color: #fff;
+    .title{
+        color: #fff;
+    }
+}
 .floating-buttons {
     position: fixed;
     bottom: 20px;
@@ -526,5 +637,5 @@ header + section{
     .scroll-top {
       background-color: #007bff;
     }
-  }
+}
   
