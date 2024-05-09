@@ -192,11 +192,15 @@
 
 <div class="floating-buttons">
   <!-- WhatsApp button -->
-  <a href="https://wa.me/8284910963" class="whatsapp" target="_blank">WhatsApp</a>
+  <a href="https://wa.me/8284910963" class="whatsapp" target="_blank">
+	<img src="<?php echo get_template_directory_uri();?>/assets/icons/whatsapp-svg.svg" class="arrow">
+  </a>
   <!-- Phone call button -->
-  <a href="tel:8284910963" class="phone">Call</a>
+  <a href="tel:8284910963" class="phone">
+  		<img src="<?php echo get_template_directory_uri();?>/assets/icons/phone-calling.svg" class="arrow">
+  </a>
 
-  <a href="#" class="scroll-top">Top</a>
+  <a href="#" class="scroll-top"><img src="<?php echo get_template_directory_uri();?>/assets/icons/up-arrow-svg.svg" class="arrow"></a>
 </div>
 
 <?php wp_footer(); ?>

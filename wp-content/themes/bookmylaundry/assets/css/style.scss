@@ -173,9 +173,7 @@ header + section{
 }
 #searchsection{
     text-align: center;
-    margin: 0px 0 60px;
-    background: #f2f2f2;
-    padding: 60px 0;
+    padding: 80px 0;
     .timeslot-picker{
         position: relative;
         .heading{
@@ -293,7 +291,8 @@ header + section{
     }
 }
 .landing-benefits--wrapper{
-    margin-top: 100px;
+    background: #f2f2f2;
+    padding: 60px 0;
     .landing-key-items-wrapper{
         display: flex;
         justify-content: center;
@@ -458,6 +457,7 @@ header + section{
 }
 .testimonial-slider
 {
+    margin: 60px 0 100px;
     .slider_content{
         display: flex;
         justify-content: space-between;
@@ -503,18 +503,19 @@ header + section{
 }
 
 .ourareas{
-
+    padding: 60px 0 120px;
+    background: #E4EAEE;
     .locations{
         .w-html{
             ul{
-                color: #fff;
-                display: grid;
-                list-style: none;
-                grid-auto-flow: column;
-                grid-template-rows: 1fr 1fr;
+                -webkit-column-count: 3;
+                -moz-column-count: 3;
+                column-count: 3;
                 margin: 0;
                 padding: 0;
                 text-align: center;
+                color: #fff;
+                list-style: none;
                 li{
                     margin-bottom: 45px;
                     img{
@@ -536,15 +537,38 @@ header + section{
         display: flex;
         justify-content: space-between;
         padding: 30px 0;
+        align-items: center;
+        margin-bottom: 60px;
         .right{
             max-width: 500px;
             font-size: 16px;
+            p{
+                color: #000;
+                font-weight: 600;
+                line-height: 26px;
+                font-size: 16px;
+            }
+        }
+        .left{
+            margin: 0;
+            font-size: 32px;
+            color: #5d3f6a;
+            h2{
+                font-size: 16px;
+                font-weight: 600;
+                margin: 0;
+            }
+            h3{
+                margin: 0;
+                font-size: 32px;
+                color: #5d3f6a;
+            }
         }
     }
 }
 .custom-footer-wrapper {
-background-color: #f7f7f7;
-padding: 40px;
+    background-color: #f7f7f7;
+    padding: 40px;
 }
 .custom-footer-container {
 max-width: 1200px;
@@ -584,23 +608,99 @@ transition: color 0.3s ease;
 }
 }
 .our-blog{
+    background: #875F9A;
+    padding: 45px 0;
+    color: #fff;
     .bloglist{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         gap:30px;
         .item{
-            width: calc(33.33% - 30px)
+            width: calc(33.33% - 30px);
+            .content{
+                position: relative;
+                bottom: 28px;
+                background: #fff;
+                padding: 15px 30px 15px 15px;
+                z-index: 999;
+                margin-right: 30px;
+                h3{
+                    margin-top: 10px;
+                    font-size: 17px;
+                    color: #000;
+                    line-height: 24px;
+                    text-transform: capitalize;
+                }
+                time{
+                    text-transform: capitalize;
+                    font-size: 15px;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        .left{
+            width: 40%;
+            h3{
+                font-size: 32px;
+                margin: 0;
+                margin-bottom: 5px;
+                color: #fff;
+            }
+            p{
+                font-size: 16px;
+                margin: 0 0 30px;
+                font-weight: 600;
+                color: #fff;
+            }
+        }
+        .right{
+            width: 60%;
+            text-align: right;
+            img{
+                width: 30px;
+            }
+            .link{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                gap: 10px;
+                font-size: 17px;
+                font-weight: 600;
+                color: #fff;
+            }
         }
     }
 }
 .happy{
     background: #5d3f6a;
-    padding: 45px;
+    padding: 80px 0;
     text-align: center;
     color: #fff;
+    .site_button{
+        border-radius: 50px;
+        background: #ffffff;
+        display: inline-block;
+        margin-top: 24px;
+        font-weight: 600;
+        &:hover{
+            color: #5D3F6A;
+        }
+    }
     .title{
         color: #fff;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        margin: 0;
     }
 }
 .floating-buttons {
@@ -620,22 +720,30 @@ transition: color 0.3s ease;
       height: 50px;
       text-align: center;
       line-height: 50px;
-      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     }
   
     /* Style for WhatsApp button */
-    .whatsapp {
-      background-color: #25d366;
-    }
+
   
     /* Style for phone call button */
-    .phone {
-      background-color: #28a745;
+    .phone ,.whatsapp{
+      background-color: #fff;
     }
   
     /* Style for scroll to top button */
     .scroll-top {
-      background-color: #007bff;
+        color: #fff;
+        background-color: #5D3F6A;
+        border-color: #5D3F6A;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        vertical-align: middle;
+        img{
+            width: 30px;
+        }
     }
 }
   

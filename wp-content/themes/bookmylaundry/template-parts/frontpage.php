@@ -334,7 +334,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <span id="landingUpsellSmallCTA">Schedule your pickup</span>
+                   <a href="" class="site_button"> <span id="landingUpsellSmallCTA">Schedule your pickup</span> </a>
                 </div>
             </div>
         </div>
@@ -406,12 +406,19 @@
 <section class="our-blog">
     <div class="site_container">
        <div class="head">
+          <div class="left">
             <h3>Latest Blogs</h3>
             <p>Stay updated with the best of garment and home cleaning</p>
+          </div>
+          <div class="right">
+            <a href="#" class="link">
+                View All Blog <img src="<?php echo get_template_directory_uri();?>/assets/icons/right-arrow-white.svg" class="arrow">
+            </a>
+          </div>
        </div> 
        <div class="bloglist">
             <div class="item">
-                <div class="content">
+                <div class="outer-content">
                    <a href="#">
                         <div class="wrap-image">
                             <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/image/blog-01.jpg" alt="">
@@ -425,7 +432,7 @@
             </div>
             <div class="item">
                <a href="#">
-                <div class="content">
+                <div class="outer-content">
                         <div class="wrap-image">
                             <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/image/blog-01.jpg" alt="">
                         </div>
@@ -438,7 +445,7 @@
             </div>
             <div class="item">
                 <a href="#">
-                    <div class="content">
+                    <div class="outer-content">
                         <div class="wrap-image">
                             <img src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/image/blog-01.jpg" alt="">
                         </div>
