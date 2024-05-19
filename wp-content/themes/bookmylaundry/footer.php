@@ -51,21 +51,53 @@
 			</div>
          </div>
          <div class="item">
-            <p class="mb-12">Follow us</p>
-            <div class="landing-footer--image-row gap-10">
-				<a href="#" rel="noopener">
-					<img width="28" height="28" loading="lazy" alt="Facebook" src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/facebook.png">
-				</a>
-				<a href="#" rel="noopener">
-					<img width="28" height="28" loading="lazy" alt="Twitter" src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/twitter.png">
-				</a>
-				<a href="#" rel="noopener">
-					<img width="28" height="28" loading="lazy" alt="Instagram" src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/instagram.png">
-				</a>
-				<a href="#" rel="noopener">
-					<img width="28" height="28" loading="lazy" alt="Linkedin" src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/linkedin.png">
-				</a>
+			<div class="address">
+				<p class="mb-12">Follow us</p>
+				<div class="landing-footer--image-row gap-10">
+					<a href="#" rel="noopener">
+						<img width="28" height="28" loading="lazy" alt="Facebook" src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/facebook.png">
+					</a>
+					<a href="#" rel="noopener">
+						<img width="28" height="28" loading="lazy" alt="Twitter" src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/twitter.png">
+					</a>
+					<a href="#" rel="noopener">
+						<img width="28" height="28" loading="lazy" alt="Instagram" src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/instagram.png">
+					</a>
+					<a href="#" rel="noopener">
+						<img width="28" height="28" loading="lazy" alt="Linkedin" src="<?php echo site_url();?>/wp-content/themes/bookmylaundry/assets/icons/linkedin.png">
+					</a>
+				</div>
+				<p class="mb-12 addr">Address</p>
+				<ul>
+					<li>
+						<strong>Corporate Office</strong> – 3rd floor 44 Regal Building Connaught Place New Delhi 110001
+						<br>
+						<strong>Head office </strong> – 1/27 wave sliver tower.. Noida sector 18 up 201301
+					</li>
+					<li>
+						<strong>Our Live stores</strong>
+						Shop no G22 Noida sector 46 Tulip Mall Noida UP 201301
+						Shop no L/5A DDA flats Alaknanda kalkaji South Delhi, New Delhi 110019
+					</li>
+				</ul>
 			</div>
+         </div>
+		 <div class="item contact-us">
+            <p class="mb-12">Contact Us</p>
+            <ul>
+				<li>
+					<label for="">Customer care</label>
+					<p><a href="tel:+91-9667664759"><span class="dashicons dashicons-phone"></span> +91-9667664759</a></p>
+				</li>
+				<li>
+					<label for="">Store</label>
+					<p><a href="tel:"> <span class="dashicons dashicons-phone"></span> +91-9289300463</a></p>
+				</li>
+				<li>
+					<label for="">Email</label>
+					<p><span class="dashicons dashicons-email"></span> <a href="mail:bookmylaundry0@gmail.com">bookmylaundry0@gmail.com</a></p>
+				</li>
+			</ul>
          </div>
       </div>
       <hr class="mb-24 mt-32 d-none d-md-block">
@@ -171,7 +203,7 @@
 
 
 
-
+	<hr class="mb-24 mt-32 d-none d-md-block">
       <div class="landing-footer--bottom">
          <div class="row justify-content-between mb-32 mb-md-6 flex-column-reverse flex-md-row flex-nowrap align-items-center gap-32">
             <div class="col">
@@ -197,10 +229,13 @@
   </a>
   <!-- Phone call button -->
   <a href="tel:8284910963" class="phone">
-  		<img src="<?php echo get_template_directory_uri();?>/assets/icons/phone-calling.svg" class="arrow">
+  		<img src="<?php echo get_template_directory_uri();?>/assets/icons/phone-calling.svg" class="arrow phone-icon">
   </a>
-
-  <a href="#" class="scroll-top"><img src="<?php echo get_template_directory_uri();?>/assets/icons/up-arrow-svg.svg" class="arrow"></a>
+	<div class="topto">
+		<a href="#" class="scroll-top">
+			<img src="<?php echo get_template_directory_uri();?>/assets/icons/up-arrow-svg.svg" class="arrow">
+		</a>
+	</div>
 </div>
 
 <?php wp_footer(); ?>

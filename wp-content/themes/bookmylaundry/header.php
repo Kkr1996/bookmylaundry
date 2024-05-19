@@ -72,7 +72,7 @@
 						)
 					);
 				?>
-				<ul>
+				<ul class="list-icons">
 					<li>
 						<a href="#">
 
@@ -92,9 +92,10 @@
 							</svg>
 						</a>
 					</li>
-					<li>
+					<li class="cart-icons">
 						<a href="#">
 							<span class="dashicons dashicons-cart"></span>
+							<span class="text">Cart</span>
 						</a>
 					</li>
 				</ul>
@@ -103,4 +104,5 @@
 			</nav><!-- #site-navigation -->
 		</div>
 	</div>
-</header><!-- #masthead -->
+</header>
+<!-- #masthead -->
